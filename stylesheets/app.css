@@ -62,22 +62,24 @@ body {
 /* line 128, ../scss/_settings.scss */
 #story {
   height: 500px;
-  background-color: #0078A0;
+  background-color: #ffffff;
+  opacity: .8;
 }
 
-/* line 133, ../scss/_settings.scss */
+/* line 134, ../scss/_settings.scss */
 #wedding {
   height: 500px;
   background-color: #ffffff;
 }
 
-/* line 138, ../scss/_settings.scss */
+/* line 139, ../scss/_settings.scss */
 #party {
   height: 500px;
-  background-color: #0078A0;
+  background-color: #ffffff;
+  opacity: .8;
 }
 
-/* line 143, ../scss/_settings.scss */
+/* line 145, ../scss/_settings.scss */
 #registry {
   color: #ffffff;
   background-color: #000000;
