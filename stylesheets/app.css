@@ -8,13 +8,19 @@
 }
 
 /* line 71, ../scss/_settings.scss */
+.hello-subtext {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 76, ../scss/_settings.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
   font-weight: 200;
   font-size: 20px;
 }
 
-/* line 77, ../scss/_settings.scss */
+/* line 82, ../scss/_settings.scss */
 .parallax-background {
   background: url("/assets/pics/banner.jpg") no-repeat center transparent;
   background-size: cover;
@@ -25,7 +31,7 @@ body {
   width: 100%;
 }
 
-/* line 98, ../scss/_settings.scss */
+/* line 103, ../scss/_settings.scss */
 .nav-arrow {
   font-size: 50px;
   color: #fff;
@@ -34,12 +40,12 @@ body {
   padding-top: 600px;
 }
 
-/* line 106, ../scss/_settings.scss */
+/* line 111, ../scss/_settings.scss */
 .parallax-container {
   height: 100%;
 }
 
-/* line 110, ../scss/_settings.scss */
+/* line 115, ../scss/_settings.scss */
 .parallax-content {
   top: 100%;
   max-width: 100%;
@@ -47,19 +53,19 @@ body {
   font-size: 20px;
 }
 
-/* line 118, ../scss/_settings.scss */
+/* line 123, ../scss/_settings.scss */
 #welcome {
   background-color: #ffffff;
-  height: 300px;
-}
-
-/* line 123, ../scss/_settings.scss */
-.welcome-content {
-  margin-top: 80px;
-  font-family: 'Ek Mukta', sans-serif;
+  height: 250px;
 }
 
 /* line 128, ../scss/_settings.scss */
+.welcome-content {
+  margin-top: 30px;
+  font-family: 'Ek Mukta', sans-serif;
+}
+
+/* line 133, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -68,44 +74,52 @@ body {
   margin-top: 10px;
 }
 
-/* line 137, ../scss/_settings.scss */
+/* line 142, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 143, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 #story {
   height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
 
-/* line 149, ../scss/_settings.scss */
+/* line 154, ../scss/_settings.scss */
 #proposal {
   height: 500px;
   background-color: #EBF5FF;
   opacity: .8;
 }
 
-/* line 155, ../scss/_settings.scss */
+/* line 160, ../scss/_settings.scss */
 #wedding {
   height: 800px;
   background-color: #ffffff;
 }
 
-/* line 160, ../scss/_settings.scss */
+/* line 165, ../scss/_settings.scss */
 #party {
   height: 500px;
   background-color: #ffffff;
   opacity: .8;
 }
 
-/* line 166, ../scss/_settings.scss */
+/* line 171, ../scss/_settings.scss */
 #registry {
+  height: 200px;
   color: #ffffff;
   background-color: #000000;
+}
+
+/* line 177, ../scss/_settings.scss */
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
