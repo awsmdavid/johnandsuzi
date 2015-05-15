@@ -125,14 +125,35 @@ body {
   font-family: 'Ek Mukta', sans-serif;
 }
 
+.section-header{
+  // font-family: 'Crimson Text', serif;
+  font-family: 'EB Garamond', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.section-content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 #story {
   height: 500px;
   background-color: #ffffff;
+    opacity: .95;
+}
+
+#proposal {
+  height: 500px;
+  background-color: #EBF5FF;
     opacity: .8;
 }
 
 #wedding {
-  height: 500px;
+  height: 800px;
   background-color: #ffffff;
 }
 

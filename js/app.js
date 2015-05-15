@@ -21,7 +21,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if($(window).scrollTop()>800){
+		if($(window).scrollTop()>900){
 			storydiv.fadeIn("slow");
 			// $( ".story-content" ).fadeIn("slow").animate({marginLeft: "50px"}, 500);
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if($(window).scrollTop()<1300){
+		if($(window).scrollTop()<1700){
 			weddingdiv.fadeOut("fast");
 		}
 		else {
