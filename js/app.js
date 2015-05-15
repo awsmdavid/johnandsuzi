@@ -8,20 +8,20 @@ $(document).ready(function(){
 	var welcomediv = $('.welcome-content');
 	var storydiv = $('.story-content');
 	var weddingdiv = $('.wedding-content');
+	var weddingheaderdiv = $('.wedding-header');
+	// $(window).scroll(function(){
+	//	if($(window).scrollTop()>500){
+	//		welcomediv.fadeIn("slow");
+	//	}
+	//	else {
+	//		// $( ".story-content" ).animate({marginLeft: "0px"}, 500);
+	//		welcomediv.fadeOut("fast");
+	//	}
+
+	// });
 
 	$(window).scroll(function(){
-		if($(window).scrollTop()>500){
-			welcomediv.fadeIn("slow");
-		}
-		else {
-			// $( ".story-content" ).animate({marginLeft: "0px"}, 500);
-			welcomediv.fadeOut("fast");
-		}
-
-	});
-
-	$(window).scroll(function(){
-		if($(window).scrollTop()>900){
+		if($(window).scrollTop()>700){
 			storydiv.fadeIn("slow");
 			// $( ".story-content" ).fadeIn("slow").animate({marginLeft: "50px"}, 500);
 
@@ -34,11 +34,26 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if($(window).scrollTop()<1700){
-			weddingdiv.fadeOut("fast");
+		if($(window).scrollTop()<1600){
+			weddingheaderdiv.fadeOut("fast");
 		}
 		else {
-			weddingdiv.fadeIn("slow");
+			weddingheaderdiv.fadeIn("slow");
+		}
+		
+	});
+
+	$(window).scroll(function(){
+		if($(window).scrollTop()<1800){
+			// weddingdiv.hide(1000);
+			// weddingdiv.fadeOut("fast");
+			weddingdiv.fadeOut({ duration: 700, queue: false }).slideUp(800);
+
+		}
+		else {
+			weddingdiv.fadeIn({ duration: 700, queue: false }).slideDown(800); 
+			// weddingdiv.show(1000);
+			//weddingdiv.fadeIn("slow");
 		}
 		
 	});

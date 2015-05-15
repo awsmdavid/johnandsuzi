@@ -121,8 +121,16 @@ body {
 }
 
 #welcome{
+  // background-color: #FCFAFE;
   background-color: #ffffff;
-  height: 250px;
+  color:#000000;
+  // background-color: #000000;
+  // color:#ffffff;
+  // opacity: .4;
+  height: 200px;
+  border-style: solid;
+  border-width: 10px;
+  border-style: double;
 }
 
 .welcome-content{
@@ -136,6 +144,15 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 36px;
+  margin-top: 10px;
+}
+
+.section-subheader{
+  // font-family: 'Crimson Text', serif;
+  font-family: 'EB Garamond', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 26px;
   margin-top: 10px;
 }
 
@@ -161,6 +178,45 @@ body {
   height: 800px;
   background-color: #ffffff;
 }
+// .wedding-content{
+//   margin-left: 0px;
+// }
+
+.pink-banner{
+  margin: 15px 0 15px -15px;
+}
+.banner-link-pink:before {
+  background: url(/assets/ribbon-before.png) no-repeat;
+}
+.banner-link-pink span {
+  height: 31px;
+  padding: 5px 2px 0;
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  // font-size: 1.4rem;
+  color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9b1d3), color-stop(100%, #e89fc2));
+  background-image: -webkit-linear-gradient(#f9b1d3, #e89fc2);
+  background-image: -moz-linear-gradient(#f9b1d3, #e89fc2);
+  background-image: -o-linear-gradient(#f9b1d3, #e89fc2);
+  background-image: linear-gradient(#f9b1d3, #e89fc2);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.banner-link-pink:after {
+  background: url(/assets/ribbon-after.png) no-repeat;
+}
+
+.banner-link-pink:before, .banner-link-pink:after {
+  content: '';
+  width: 32px;
+  height: 45px;
+  display: inline-block;
+  float: left;
+}
 
 #party {
   height: 500px;
@@ -168,21 +224,22 @@ body {
   opacity: .8;
 }
 
+#proposal {
+  height: 500px;
+  background-color: #EBF5FF;
+    opacity: .8;
+}
+
+
 #registry {
   height: 200px;
   // color: #ffffff;
-  // background-color: #000000;  
+  background-color: #EBF5FF;  
 }
 
-// #paypal-logo {
-//   margin-bottom: 10px;
-//   background-image: url('/assets/pics/paypal-logo-grey.png');
-//   // background-width: 200px;
-// }
-
-// #paypal-logo:hover {
-//    background-image: url('/assets/pics/paypal-logo.png');
-// }
+#paypal-logo:hover{
+  opacity:.7;
+}
 
 #rsvp {
   height: 200px;
@@ -192,10 +249,15 @@ body {
 
 #foot{
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: #ffffff;
   background-color: #000000;  
+  padding-bottom: 20px;
+}
+
+.foo{
+  color:#ffffff;
 }
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
