@@ -111,15 +111,22 @@ body {
 /* line 171, ../scss/_settings.scss */
 #registry {
   height: 200px;
+}
+
+/* line 187, ../scss/_settings.scss */
+#rsvp {
+  height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 177, ../scss/_settings.scss */
-.footer {
+/* line 193, ../scss/_settings.scss */
+#foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */

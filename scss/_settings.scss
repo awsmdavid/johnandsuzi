@@ -170,14 +170,32 @@ body {
 
 #registry {
   height: 200px;
+  // color: #ffffff;
+  // background-color: #000000;  
+}
+
+// #paypal-logo {
+//   margin-bottom: 10px;
+//   background-image: url('/assets/pics/paypal-logo-grey.png');
+//   // background-width: 200px;
+// }
+
+// #paypal-logo:hover {
+//    background-image: url('/assets/pics/paypal-logo.png');
+// }
+
+#rsvp {
+  height: 200px;
   color: #ffffff;
   background-color: #000000;  
 }
 
-.footer{
+#foot{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
+  color: #ffffff;
+  background-color: #000000;  
 }
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
