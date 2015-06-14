@@ -1,26 +1,39 @@
-/* line 64, ../scss/_settings.scss */
+/* line 63, ../scss/_settings.scss */
+#oval {
+  margin-top: 200px;
+  width: 240px;
+  height: 120px;
+  background: #ffffff;
+  opacity: .8;
+  -moz-border-radius: 135px / 75px;
+  -webkit-border-radius: 135px / 75px;
+  border-radius: 135px / 75px;
+  margin-bottom: -200px;
+}
+
+/* line 75, ../scss/_settings.scss */
 .hello-text {
+  padding-top: 20px;
   font-size: 30px;
   color: #000000;
   text-align: center;
-  padding-top: 200px;
   font-family: 'Lobster', cursive;
 }
 
-/* line 73, ../scss/_settings.scss */
+/* line 85, ../scss/_settings.scss */
 .hello-subtext {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 78, ../scss/_settings.scss */
+/* line 90, ../scss/_settings.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
   font-weight: 200;
   font-size: 20px;
 }
 
-/* line 84, ../scss/_settings.scss */
+/* line 96, ../scss/_settings.scss */
 .parallax-background {
   background: url("/assets/background.jpg") no-repeat center transparent;
   background-size: cover;
@@ -31,7 +44,7 @@ body {
   width: 100%;
 }
 
-/* line 105, ../scss/_settings.scss */
+/* line 107, ../scss/_settings.scss */
 .nav-arrow {
   font-size: 50px;
   color: #fff;
@@ -40,12 +53,12 @@ body {
   padding-top: 600px;
 }
 
-/* line 113, ../scss/_settings.scss */
+/* line 115, ../scss/_settings.scss */
 .parallax-container {
   height: 100%;
 }
 
-/* line 117, ../scss/_settings.scss */
+/* line 120, ../scss/_settings.scss */
 .parallax-content {
   top: 100%;
   max-width: 100%;
@@ -53,20 +66,21 @@ body {
   font-size: 20px;
 }
 
-/* line 125, ../scss/_settings.scss */
+/* line 128, ../scss/_settings.scss */
 #welcome {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #323232;
+  color: #ffffff;
+  opacity: .85;
   height: 450px;
 }
 
-/* line 138, ../scss/_settings.scss */
+/* line 141, ../scss/_settings.scss */
 .welcome-content {
   margin-top: 30px;
   font-family: 'Ek Mukta', sans-serif;
 }
 
-/* line 143, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -75,7 +89,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 152, ../scss/_settings.scss */
+/* line 157, ../scss/_settings.scss */
 .section-subheader {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -84,14 +98,14 @@ body {
   margin-top: 10px;
 }
 
-/* line 161, ../scss/_settings.scss */
+/* line 166, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 167, ../scss/_settings.scss */
+/* line 172, ../scss/_settings.scss */
 #story {
   height: 560px;
   opacity: .95;
@@ -99,30 +113,30 @@ body {
   color: #000000;
 }
 
-/* line 175, ../scss/_settings.scss */
+/* line 180, ../scss/_settings.scss */
 #proposal {
   height: 500px;
   background-color: #EBF5FF;
   opacity: .8;
 }
 
-/* line 181, ../scss/_settings.scss */
+/* line 186, ../scss/_settings.scss */
 #wedding {
   height: 800px;
   background-color: #ffffff;
 }
 
-/* line 189, ../scss/_settings.scss */
+/* line 194, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 192, ../scss/_settings.scss */
+/* line 197, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 195, ../scss/_settings.scss */
+/* line 200, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -140,12 +154,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 213, ../scss/_settings.scss */
+/* line 218, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 217, ../scss/_settings.scss */
+/* line 222, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -154,39 +168,39 @@ body {
   float: left;
 }
 
-/* line 225, ../scss/_settings.scss */
+/* line 230, ../scss/_settings.scss */
 #party {
   height: 500px;
   background-color: #ffffff;
   opacity: .8;
 }
 
-/* line 231, ../scss/_settings.scss */
+/* line 236, ../scss/_settings.scss */
 #proposal {
   height: 500px;
   background-color: #EBF5FF;
   opacity: .8;
 }
 
-/* line 242, ../scss/_settings.scss */
+/* line 247, ../scss/_settings.scss */
 #registry {
   height: 200px;
   background-color: #EBF5FF;
 }
 
-/* line 248, ../scss/_settings.scss */
+/* line 253, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 252, ../scss/_settings.scss */
+/* line 257, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 258, ../scss/_settings.scss */
+/* line 263, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -196,7 +210,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 267, ../scss/_settings.scss */
+/* line 272, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
