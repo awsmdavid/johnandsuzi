@@ -108,35 +108,41 @@ body {
 /* line 172, ../scss/_settings.scss */
 #story {
   height: 560px;
-  opacity: .95;
   background-color: #ffffff;
+  opacity: .95;
   color: #000000;
 }
 
-/* line 180, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 #proposal {
-  height: 500px;
+  height: 550px;
   background-color: #EBF5FF;
-  opacity: .8;
+  opacity: .95;
 }
 
-/* line 186, ../scss/_settings.scss */
+/* line 185, ../scss/_settings.scss */
 #wedding {
-  height: 800px;
+  height: 500px;
   background-color: #ffffff;
+  opacity: .95;
 }
 
 /* line 194, ../scss/_settings.scss */
+.lower {
+  text-transform: lowercase;
+}
+
+/* line 198, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 197, ../scss/_settings.scss */
+/* line 201, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 200, ../scss/_settings.scss */
+/* line 204, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -154,12 +160,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 218, ../scss/_settings.scss */
+/* line 222, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 222, ../scss/_settings.scss */
+/* line 226, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -168,39 +174,32 @@ body {
   float: left;
 }
 
-/* line 230, ../scss/_settings.scss */
+/* line 234, ../scss/_settings.scss */
 #party {
   height: 500px;
   background-color: #ffffff;
   opacity: .8;
 }
 
-/* line 236, ../scss/_settings.scss */
-#proposal {
-  height: 500px;
-  background-color: #EBF5FF;
-  opacity: .8;
-}
-
-/* line 247, ../scss/_settings.scss */
+/* line 245, ../scss/_settings.scss */
 #registry {
-  height: 200px;
+  height: 400px;
   background-color: #EBF5FF;
 }
 
-/* line 253, ../scss/_settings.scss */
+/* line 251, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 257, ../scss/_settings.scss */
+/* line 255, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 263, ../scss/_settings.scss */
+/* line 261, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -210,7 +209,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 272, ../scss/_settings.scss */
+/* line 270, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }

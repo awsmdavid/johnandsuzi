@@ -171,25 +171,29 @@ body {
 
 #story {
   height: 560px;
-  // background-color: #ffffff;
-  opacity: .95;
   background-color: #ffffff;
+  opacity: .95;
   color: #000000;
 }
 
 #proposal {
-  height: 500px;
+  height: 550px;
   background-color: #EBF5FF;
-    opacity: .8;
+  opacity:.95;
 }
 
 #wedding {
-  height: 800px;
+  height: 500px;
   background-color: #ffffff;
+  opacity: .95;
 }
 // .wedding-content{
 //   margin-left: 0px;
 // }
+
+.lower {
+  text-transform: lowercase;
+}
 
 .pink-banner{
   margin: 15px 0 15px -15px;
@@ -233,19 +237,13 @@ body {
   opacity: .8;
 }
 
-#proposal {
-  height: 500px;
-  background-color: #EBF5FF;
-    opacity: .8;
-}
-
 #photos{
   // background-color: #D9D9D9;
   // opacity:.95;
 }
 
 #registry {
-  height: 200px;
+  height: 400px;
   // color: #ffffff;
   background-color: #EBF5FF;  
 }
