@@ -132,10 +132,11 @@ body {
   text-align: center;
   top: 700px;
   padding-top: 500px;
+  opacity: .8;
 
   //blinking
-    -webkit-animation: bgblink 10s;  /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+  -webkit-animation: bgblink 10s;  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
 }
 @-webkit-keyframes bgblink {
     from {color: #fff;}
