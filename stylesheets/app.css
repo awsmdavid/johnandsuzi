@@ -112,42 +112,45 @@ body {
 
 /* line 176, ../scss/_settings.scss */
 #story {
-  height: 560px;
+  height: auto;
+  overflow: scroll;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
 }
 
-/* line 183, ../scss/_settings.scss */
+/* line 185, ../scss/_settings.scss */
 #proposal {
-  height: 550px;
+  height: auto;
+  overflow: scroll;
   background-color: #FFE9E9;
   opacity: .95;
 }
 
-/* line 189, ../scss/_settings.scss */
+/* line 193, ../scss/_settings.scss */
 #wedding {
-  height: 500px;
+  height: auto;
+  overflow: scroll;
   background-color: #ffffff;
   opacity: .95;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 204, ../scss/_settings.scss */
 .lower {
   text-transform: lowercase;
 }
 
-/* line 202, ../scss/_settings.scss */
+/* line 208, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 205, ../scss/_settings.scss */
+/* line 211, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 208, ../scss/_settings.scss */
+/* line 214, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -165,12 +168,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 226, ../scss/_settings.scss */
+/* line 232, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 230, ../scss/_settings.scss */
+/* line 236, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -179,80 +182,81 @@ body {
   float: left;
 }
 
-/* line 238, ../scss/_settings.scss */
+/* line 244, ../scss/_settings.scss */
 #party {
-  height: 650px;
+  height: auto;
+  overflow: scroll;
   background-color: #FFE9E9;
   opacity: .95;
 }
 
-/* line 244, ../scss/_settings.scss */
+/* line 253, ../scss/_settings.scss */
 .party-title {
   font-size: 24px;
 }
 
-/* line 249, ../scss/_settings.scss */
+/* line 258, ../scss/_settings.scss */
 .party-name {
   font-size: 20px;
   font-weight: 800;
 }
 
-/* line 254, ../scss/_settings.scss */
+/* line 263, ../scss/_settings.scss */
 .party-deets {
   font-size: 14px;
 }
 
-/* line 258, ../scss/_settings.scss */
+/* line 267, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 262, ../scss/_settings.scss */
+/* line 271, ../scss/_settings.scss */
 .orbit-prev {
   display: none;
 }
 
-/* line 266, ../scss/_settings.scss */
+/* line 275, ../scss/_settings.scss */
 .orbit-next {
   display: none;
 }
 
-/* line 270, ../scss/_settings.scss */
+/* line 279, ../scss/_settings.scss */
 .orbit-timer {
   color: #000;
 }
 
-/* line 279, ../scss/_settings.scss */
+/* line 288, ../scss/_settings.scss */
 #registry {
   height: 400px;
   background-color: #ffffff;
 }
 
-/* line 286, ../scss/_settings.scss */
+/* line 295, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 290, ../scss/_settings.scss */
+/* line 299, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 294, ../scss/_settings.scss */
+/* line 303, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 300, ../scss/_settings.scss */
+/* line 309, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 306, ../scss/_settings.scss */
+/* line 315, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -262,7 +266,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 315, ../scss/_settings.scss */
+/* line 324, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }

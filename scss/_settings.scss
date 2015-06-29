@@ -174,20 +174,26 @@ body {
 }
 
 #story {
-  height: 560px;
+  height:auto;
+  overflow:scroll;
+  // height: 560px;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
 }
 
 #proposal {
-  height: 550px;
+  height:auto;
+  overflow:scroll;
+  // height: 550px;
   background-color: #FFE9E9;
   opacity:.95;
 }
 
 #wedding {
-  height: 500px;
+  height:auto;
+  overflow:scroll;
+  // height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
@@ -236,7 +242,10 @@ body {
 }
 
 #party {
-  height: 650px;
+  height: auto;
+  overflow: scroll;
+  // max-height:0px;
+  // height: 650px;
   background-color: #FFE9E9;
   opacity: .95;
 }
