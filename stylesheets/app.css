@@ -268,48 +268,46 @@ body {
 /* line 319, ../scss/_settings.scss */
 .party-deets {
   font-size: 14px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
-/* line 325, ../scss/_settings.scss */
+/* line 323, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 329, ../scss/_settings.scss */
+/* line 327, ../scss/_settings.scss */
 .orbit-prev {
   display: none;
 }
 
-/* line 333, ../scss/_settings.scss */
+/* line 331, ../scss/_settings.scss */
 .orbit-next {
   display: none;
 }
 
-/* line 337, ../scss/_settings.scss */
+/* line 335, ../scss/_settings.scss */
 .orbit-timer {
   color: #000;
 }
 
-/* line 346, ../scss/_settings.scss */
+/* line 344, ../scss/_settings.scss */
 #registry {
   height: auto;
   min-height: 400px;
   background-color: #ffffff;
 }
 
-/* line 355, ../scss/_settings.scss */
+/* line 353, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 359, ../scss/_settings.scss */
+/* line 357, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 363, ../scss/_settings.scss */
+/* line 361, ../scss/_settings.scss */
 #rsvp {
   height: auto;
   min-height: 200px;
@@ -317,14 +315,14 @@ body {
   background-color: #000000;
 }
 
-/* line 370, ../scss/_settings.scss */
+/* line 368, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 376, ../scss/_settings.scss */
+/* line 374, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -334,7 +332,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 385, ../scss/_settings.scss */
+/* line 383, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
