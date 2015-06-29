@@ -92,17 +92,31 @@ body {
   font-weight: 200;
   font-size: 20px;
 }
-
 .parallax-background {
   background: url("/assets/background.jpg") no-repeat center transparent;
   background-size: cover;
+  background-position: center; 
   top: 0px;
   z-index: -2;
   // opacity: .2;
-  height: 800px;
+  min-height: 800px;
   position: fixed;
   width: 100%;
 }
+
+@media (min-width: 600px) {
+  .parallax-background {
+    background: url("/assets/background.jpg") no-repeat center transparent;
+    background-size: cover;
+    top: 0px;
+    z-index: -2;
+    // opacity: .2;
+    min-height: 800px;
+    position: fixed;
+    width: 100%;
+  }
+}
+
 
 .nav-arrow {
   font-size: 50px;
