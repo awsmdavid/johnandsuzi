@@ -10,7 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="stylesheets/foundation-icons/foundation-icons.css" />   
+    <link rel="stylesheet" href="stylesheets/foundation-icons/foundation-icons.css" />  
+
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
 
@@ -29,10 +30,9 @@
 
     <!-- begin template content-->
   <div class="parallax-background">
-<!--     <div class="nav-arrow">
-      <i id="arrow" class="fi-arrow-down"></i>
-    </div> -->
+
   </div>
+
 
   <div class="parallax-container">
     <center>
@@ -44,7 +44,11 @@
           </div>
         </div>
       </div>
-    </div>
+      <div class="nav-arrow">
+          <i id="arrow" class="fi-arrow-down"></i>
+      </div>
+    </center>
+  </div>
 
     <div class="parallax-content">
 
@@ -101,7 +105,7 @@
       <div id="proposal">
         <div class="proposal-content">
           <div class="row">
-            <div class="story-content">
+            <div class="proposal-content">
               <div class="section-header">
                 Proposal
               </div>
@@ -162,6 +166,59 @@
           <div class="party-content">
             <div class="section-header">
               Party
+            </div>
+            <div class="section-conent">
+              <div class="gm">
+                Groomsmen:
+                 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                  <li>
+                    Nissi Kim (Best Man)
+                    <!-- <a href="/assets/party/Nissi.jpg"> -->
+                    <img src="/assets/party/Nissi.jpg" alt="yo yo yo"></a>
+                  </li>
+                  <li>
+                    Aaron Lim
+                    <!-- <a href="/assets/party/Aaron.jpg"> -->
+                    <img src="/assets/party/Aaron.jpg"></a>
+                  </li>
+                  <li>
+                    James Kang
+                    <!-- <a href="/assets/party/James.jpg"> -->
+                    <img src="/assets/party/James.jpg"></a>
+                  </li>
+                  <li>
+                    Minsu Chae
+                    <!-- <a href="/assets/party/Minsu.jpg"> -->
+                    <img src="/assets/party/Minsu.jpg"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="bm">
+                Bridesmaids:
+                 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                  <li>
+                    Sara Park (Maid of Honor)
+                    <!-- <a href="/assets/party/Sara.jpg"> -->
+                    <img src="/assets/party/Sara.jpg" alt="yo yo yo"></a>
+                  </li>
+                  <li>
+                    Jinmin Han
+                    <!-- <a href="/assets/party/Jinmin.jpg"> -->
+                    <img src="/assets/party/Jinmin.jpg"></a>
+                  </li>
+                  <li>
+                    Esther Lee
+                    <!-- <a href="/assets/party/Esther.jpg"> -->
+                    <img src="/assets/party/Esther.jpg"></a>
+                  </li>
+                  <li>
+                    Rebeca Chung
+                    <!-- <a href="/assets/party/Rebeca.jpg"> -->
+                    <img src="/assets/party/Rebeca.jpg"></a>
+                  </li>
+                </ul>                
+              </div>
+
             </div>
           </div>
         </div>
@@ -233,8 +290,10 @@
               <br><br>
               Monetary gift via PayPal using these directions:
               <br><br>
-              1. Log-in to the PayPal <a href="https://www.paypal.com/webapps/mpp/send-money-online" target="_blank">website</a>.<br>
-              2. Send the money to juziwedding@gmail.com and fill in the desired monetary amount. Please select "Sending money to family and friends."
+              <div class="indent-left">
+                1. Log-in to the PayPal <a href="https://www.paypal.com/webapps/mpp/send-money-online" target="_blank">website</a>.<br>
+                2. Send the money to juziwedding@gmail.com and fill in the desired monetary amount. Please select "Sending money to family and friends."
+              </div>
             </div>
             <!--
               <center>
@@ -300,11 +359,16 @@
   </script>
        
     <!--<script src="js/foundation/foundation.clearing.js"></script>-->
-    
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery.firefly.js"></script>
+    <!--<script src="bower_components/jquery/dist/jquery.min.js"></script>-->
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script>
+    $(document).ready(function() {
+      $.firefly({images : ['1.jpg', '2.jpg'],total : 40, on: 'body'});
+    });
+    </script>
   </body>
 
 </html>

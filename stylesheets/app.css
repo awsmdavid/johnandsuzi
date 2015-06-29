@@ -47,18 +47,23 @@ body {
 /* line 107, ../scss/_settings.scss */
 .nav-arrow {
   font-size: 50px;
-  color: #fff;
+  color: #5e5f63;
   text-align: center;
   top: 700px;
-  padding-top: 600px;
+  padding-top: 500px;
 }
 
 /* line 115, ../scss/_settings.scss */
+.arrow:hover {
+  color: #fff;
+}
+
+/* line 119, ../scss/_settings.scss */
 .parallax-container {
   height: 100%;
 }
 
-/* line 120, ../scss/_settings.scss */
+/* line 124, ../scss/_settings.scss */
 .parallax-content {
   top: 100%;
   max-width: 100%;
@@ -66,7 +71,7 @@ body {
   font-size: 20px;
 }
 
-/* line 128, ../scss/_settings.scss */
+/* line 132, ../scss/_settings.scss */
 #welcome {
   background-color: #323232;
   color: #ffffff;
@@ -74,13 +79,13 @@ body {
   height: 450px;
 }
 
-/* line 141, ../scss/_settings.scss */
+/* line 145, ../scss/_settings.scss */
 .welcome-content {
   margin-top: 30px;
   font-family: 'Ek Mukta', sans-serif;
 }
 
-/* line 148, ../scss/_settings.scss */
+/* line 152, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -89,7 +94,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 157, ../scss/_settings.scss */
+/* line 161, ../scss/_settings.scss */
 .section-subheader {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -98,14 +103,14 @@ body {
   margin-top: 10px;
 }
 
-/* line 166, ../scss/_settings.scss */
+/* line 170, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 172, ../scss/_settings.scss */
+/* line 176, ../scss/_settings.scss */
 #story {
   height: 560px;
   background-color: #ffffff;
@@ -113,36 +118,36 @@ body {
   color: #000000;
 }
 
-/* line 179, ../scss/_settings.scss */
+/* line 183, ../scss/_settings.scss */
 #proposal {
   height: 550px;
   background-color: #EBF5FF;
   opacity: .95;
 }
 
-/* line 185, ../scss/_settings.scss */
+/* line 189, ../scss/_settings.scss */
 #wedding {
   height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
 
-/* line 194, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .lower {
   text-transform: lowercase;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 202, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 201, ../scss/_settings.scss */
+/* line 205, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 204, ../scss/_settings.scss */
+/* line 208, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -160,12 +165,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 222, ../scss/_settings.scss */
+/* line 226, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 226, ../scss/_settings.scss */
+/* line 230, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -174,32 +179,43 @@ body {
   float: left;
 }
 
-/* line 234, ../scss/_settings.scss */
+/* line 238, ../scss/_settings.scss */
 #party {
-  height: 500px;
+  height: 900px;
   background-color: #ffffff;
-  opacity: .8;
+  opacity: .95;
 }
 
-/* line 245, ../scss/_settings.scss */
+/* line 244, ../scss/_settings.scss */
+#photos {
+  background-color: #D9D9D9;
+  opacity: .90;
+}
+
+/* line 249, ../scss/_settings.scss */
 #registry {
   height: 400px;
   background-color: #EBF5FF;
 }
 
-/* line 251, ../scss/_settings.scss */
+/* line 255, ../scss/_settings.scss */
+.indent-left {
+  padding-left: 30px;
+}
+
+/* line 259, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 255, ../scss/_settings.scss */
+/* line 263, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 261, ../scss/_settings.scss */
+/* line 269, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -209,7 +225,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 270, ../scss/_settings.scss */
+/* line 278, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
