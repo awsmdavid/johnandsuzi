@@ -306,9 +306,10 @@ body {
 }
 
 #rsvp {
-  height: 200px;
+  height: auto;
+  min-height: 200px;
   color: #ffffff;
-  background-color: #000000;  
+  background-color: #000000;
 }
 
 #countdown{

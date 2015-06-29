@@ -245,19 +245,20 @@ body {
 
 /* line 308, ../scss/_settings.scss */
 #rsvp {
-  height: 200px;
+  height: auto;
+  min-height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 314, ../scss/_settings.scss */
+/* line 315, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 320, ../scss/_settings.scss */
+/* line 321, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -267,7 +268,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 329, ../scss/_settings.scss */
+/* line 330, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
