@@ -135,26 +135,18 @@ body {
   opacity: .8;
 
   //blinking
-  -webkit-animation: bgblink 10s;  /* Chrome, Safari, Opera */
+  -webkit-animation: bgblink 4s;  /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
 }
 @-webkit-keyframes bgblink {
     from {color: #fff;}
-    50% {color:#FFE9E9}
+    50% {color:#FFBFD4}
     to {color: #fff;}
 }
 @keyframes bgblink {
     from {color: #fff;}
-    50% {color:#FF94B8}
+    50% {color:#FFBFD4}
     to {color: #fff;}
-}
-
-// .nav-arrow:hover{
-//   color: #5e5f63;
-// }
-
-.flashing-arrow-background{
-  color: #5e5f63;
 }
 
 .parallax-container {
@@ -369,6 +361,12 @@ body {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+}
+
+.hashtag{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 #foot{
