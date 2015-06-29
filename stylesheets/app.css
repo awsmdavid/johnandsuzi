@@ -73,19 +73,20 @@ body {
 
 /* line 132, ../scss/_settings.scss */
 #welcome {
+  height: auto;
+  min-height: 450px;
   background-color: #323232;
   color: #ffffff;
   opacity: .85;
-  height: 450px;
 }
 
-/* line 145, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 .welcome-content {
   margin-top: 30px;
   font-family: 'Ek Mukta', sans-serif;
 }
 
-/* line 152, ../scss/_settings.scss */
+/* line 155, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -94,7 +95,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 161, ../scss/_settings.scss */
+/* line 164, ../scss/_settings.scss */
 .section-subheader {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -103,57 +104,54 @@ body {
   margin-top: 10px;
 }
 
-/* line 170, ../scss/_settings.scss */
+/* line 173, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 176, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 #story {
   height: auto;
-  overflow: scroll;
   min-height: 560px;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
 }
 
-/* line 185, ../scss/_settings.scss */
+/* line 188, ../scss/_settings.scss */
 #proposal {
   height: auto;
-  overflow: scroll;
   min-height: 550px;
   background-color: #FFE9E9;
   opacity: .95;
 }
 
-/* line 193, ../scss/_settings.scss */
+/* line 196, ../scss/_settings.scss */
 #wedding {
   height: auto;
-  overflow: scroll;
   min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
 
-/* line 204, ../scss/_settings.scss */
+/* line 207, ../scss/_settings.scss */
 .lower {
   text-transform: lowercase;
 }
 
-/* line 208, ../scss/_settings.scss */
+/* line 211, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 211, ../scss/_settings.scss */
+/* line 214, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 214, ../scss/_settings.scss */
+/* line 217, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -171,12 +169,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 232, ../scss/_settings.scss */
+/* line 235, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 236, ../scss/_settings.scss */
+/* line 239, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -185,83 +183,81 @@ body {
   float: left;
 }
 
-/* line 244, ../scss/_settings.scss */
+/* line 247, ../scss/_settings.scss */
 #party {
   height: auto;
-  overflow: scroll;
   background-color: #FFE9E9;
   opacity: .95;
 }
 
-/* line 253, ../scss/_settings.scss */
+/* line 256, ../scss/_settings.scss */
 .party-title {
   font-size: 24px;
 }
 
-/* line 258, ../scss/_settings.scss */
+/* line 261, ../scss/_settings.scss */
 .party-name {
   font-size: 20px;
   font-weight: 800;
 }
 
-/* line 263, ../scss/_settings.scss */
+/* line 266, ../scss/_settings.scss */
 .party-deets {
   font-size: 14px;
 }
 
-/* line 267, ../scss/_settings.scss */
+/* line 270, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 271, ../scss/_settings.scss */
+/* line 274, ../scss/_settings.scss */
 .orbit-prev {
   display: none;
 }
 
-/* line 275, ../scss/_settings.scss */
+/* line 278, ../scss/_settings.scss */
 .orbit-next {
   display: none;
 }
 
-/* line 279, ../scss/_settings.scss */
+/* line 282, ../scss/_settings.scss */
 .orbit-timer {
   color: #000;
 }
 
-/* line 288, ../scss/_settings.scss */
+/* line 291, ../scss/_settings.scss */
 #registry {
   height: auto;
-  overflow: scroll;
   min-height: 400px;
   background-color: #ffffff;
 }
 
-/* line 297, ../scss/_settings.scss */
+/* line 300, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 301, ../scss/_settings.scss */
+/* line 304, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 305, ../scss/_settings.scss */
+/* line 308, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 311, ../scss/_settings.scss */
+/* line 314, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 317, ../scss/_settings.scss */
+/* line 320, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -271,7 +267,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 326, ../scss/_settings.scss */
+/* line 329, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }

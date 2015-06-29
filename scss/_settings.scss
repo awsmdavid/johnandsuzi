@@ -130,13 +130,16 @@ body {
 }
 
 #welcome{
+  height: auto;
+  // overflow: scroll;
+  min-height: 450px;
   // background-color: #FCFAFE;
   // background-color: #ffffff;
   // color:#000000;
   background-color: #323232;
   color:#ffffff;
   opacity: .85;
-  height: 450px;
+
   // border-style: solid;
   // border-width: 5px;
   // border-style: double;
@@ -175,7 +178,7 @@ body {
 
 #story {
   height:auto;
-  overflow:scroll;
+  // overflow:scroll;
   min-height: 560px;
   background-color: #ffffff;
   opacity: .95;
@@ -184,7 +187,7 @@ body {
 
 #proposal {
   height:auto;
-  overflow:scroll;
+  // overflow:scroll;
   min-height: 550px;
   background-color: #FFE9E9;
   opacity:.95;
@@ -192,7 +195,7 @@ body {
 
 #wedding {
   height:auto;
-  overflow:scroll;
+  // overflow:scroll;
   min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
@@ -243,7 +246,7 @@ body {
 
 #party {
   height: auto;
-  overflow: scroll;
+  // overflow: scroll;
   // max-height:0px;
   // height: 650px;
   background-color: #FFE9E9;
@@ -287,7 +290,7 @@ body {
 
 #registry {
   height: auto;
-  overflow: scroll;
+  // overflow: scroll;
   min-height: 400px;
   // color: #ffffff;
   // background-color: #FFE9E9;  
