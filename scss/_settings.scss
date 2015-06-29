@@ -236,7 +236,7 @@ body {
 }
 
 #party {
-  height: 1650px;
+  height: 650px;
   background-color: #FFE9E9;
   opacity: .95;
 }
@@ -255,15 +255,32 @@ body {
   font-size: 14px;
 }
 
-#photos{
-  background-color: #ffffff;
-  opacity:.90;
+.orbit-slide-number{
+  display: none;
 }
+
+.orbit-prev{
+ display: none;
+}
+
+.orbit-next{
+ display: none;
+}
+
+.orbit-timer{
+  color: #000;
+}
+
+// #photos{
+//   background-color: #ffffff;
+//   opacity:.90;
+// }
 
 #registry {
   height: 400px;
   // color: #ffffff;
-  background-color: #FFE9E9;  
+  // background-color: #FFE9E9;  
+  background-color: #ffffff;
 }
 
 .indent-left{
@@ -1139,7 +1156,7 @@ $body-font-style: normal;
 // We use these to control the caption styles
 // $orbit-container-bg: none;
 // $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: $white;
+// $orbit-caption-font-color: transparent;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
 // $orbit-caption-padding: rem-calc(10 14);
@@ -1148,13 +1165,13 @@ $body-font-style: normal;
 // We use these to control the left/right nav styles
 // $orbit-nav-bg: transparent;
 // $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: $white;
-// $orbit-nav-arrow-color-hover: $white;
+$orbit-nav-arrow-color: $oil;
+$orbit-nav-arrow-color-hover: $white;
 
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
 // $orbit-timer-show-progress-bar: true;
-
+// $orbit-timer-color: $oil;
 // We use these to control the bullet nav styles
 // $orbit-bullet-nav-color: $iron;
 // $orbit-bullet-nav-color-active: $aluminum;

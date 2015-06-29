@@ -181,7 +181,7 @@ body {
 
 /* line 238, ../scss/_settings.scss */
 #party {
-  height: 1650px;
+  height: 650px;
   background-color: #FFE9E9;
   opacity: .95;
 }
@@ -203,42 +203,56 @@ body {
 }
 
 /* line 258, ../scss/_settings.scss */
-#photos {
-  background-color: #ffffff;
-  opacity: .90;
+.orbit-slide-number {
+  display: none;
 }
 
-/* line 263, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
+.orbit-prev {
+  display: none;
+}
+
+/* line 266, ../scss/_settings.scss */
+.orbit-next {
+  display: none;
+}
+
+/* line 270, ../scss/_settings.scss */
+.orbit-timer {
+  color: #000;
+}
+
+/* line 279, ../scss/_settings.scss */
 #registry {
   height: 400px;
-  background-color: #FFE9E9;
+  background-color: #ffffff;
 }
 
-/* line 269, ../scss/_settings.scss */
+/* line 286, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 273, ../scss/_settings.scss */
+/* line 290, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 277, ../scss/_settings.scss */
+/* line 294, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 283, ../scss/_settings.scss */
+/* line 300, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 289, ../scss/_settings.scss */
+/* line 306, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -248,7 +262,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 298, ../scss/_settings.scss */
+/* line 315, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
@@ -5504,7 +5518,7 @@ kbd {
 .orbit-container .orbit-prev > span {
   border-right-style: solid;
   border-color: transparent;
-  border-right-color: #FFFFFF;
+  border-right-color: #333333;
 }
 /* line 273, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-prev:hover > span {
@@ -5518,7 +5532,7 @@ kbd {
 .orbit-container .orbit-next > span {
   border-color: transparent;
   border-left-style: solid;
-  border-left-color: #FFFFFF;
+  border-left-color: #333333;
   left: 50%;
   margin-left: -4px;
 }

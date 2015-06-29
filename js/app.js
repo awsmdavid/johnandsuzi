@@ -97,6 +97,8 @@ $(document).ready(function(){
 		});
 	}
 
+	/*countdown*/
+
 	var end = new Date('09/19/2015 12:01 AM');
 
 var _second = 1000;
@@ -136,5 +138,11 @@ function showRemaining() {
 }
 
 timer = setInterval(showRemaining, 1000);
+
+
+
+
+/* carosel*/
+
 });
 
