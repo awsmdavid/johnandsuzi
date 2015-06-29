@@ -232,6 +232,13 @@ body {
 }
 
 /* line 283, ../scss/_settings.scss */
+#countdown {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* line 289, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -241,7 +248,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 292, ../scss/_settings.scss */
+/* line 298, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
