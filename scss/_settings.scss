@@ -176,7 +176,7 @@ body {
 #story {
   height:auto;
   overflow:scroll;
-  // height: 560px;
+  min-height: 560px;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
@@ -185,7 +185,7 @@ body {
 #proposal {
   height:auto;
   overflow:scroll;
-  // height: 550px;
+  min-height: 550px;
   background-color: #FFE9E9;
   opacity:.95;
 }
@@ -193,7 +193,7 @@ body {
 #wedding {
   height:auto;
   overflow:scroll;
-  // height: 500px;
+  min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
@@ -286,7 +286,9 @@ body {
 // }
 
 #registry {
-  height: 400px;
+  height: auto;
+  overflow: scroll;
+  min-height: 400px;
   // color: #ffffff;
   // background-color: #FFE9E9;  
   background-color: #ffffff;

@@ -114,6 +114,7 @@ body {
 #story {
   height: auto;
   overflow: scroll;
+  min-height: 560px;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
@@ -123,6 +124,7 @@ body {
 #proposal {
   height: auto;
   overflow: scroll;
+  min-height: 550px;
   background-color: #FFE9E9;
   opacity: .95;
 }
@@ -131,6 +133,7 @@ body {
 #wedding {
   height: auto;
   overflow: scroll;
+  min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
 }
@@ -228,35 +231,37 @@ body {
 
 /* line 288, ../scss/_settings.scss */
 #registry {
-  height: 400px;
+  height: auto;
+  overflow: scroll;
+  min-height: 400px;
   background-color: #ffffff;
 }
 
-/* line 295, ../scss/_settings.scss */
+/* line 297, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 299, ../scss/_settings.scss */
+/* line 301, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 303, ../scss/_settings.scss */
+/* line 305, ../scss/_settings.scss */
 #rsvp {
   height: 200px;
   color: #ffffff;
   background-color: #000000;
 }
 
-/* line 309, ../scss/_settings.scss */
+/* line 311, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 315, ../scss/_settings.scss */
+/* line 317, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -266,7 +271,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 324, ../scss/_settings.scss */
+/* line 326, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }
