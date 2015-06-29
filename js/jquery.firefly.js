@@ -35,8 +35,8 @@
 			return spark.css({
 				'position':'absolute',
 				'z-index': $.firefly.random(20),
-				top: $.firefly.random(($(window).height()-150)),	//offsets
-				left: $.firefly.random(($(window).width()-150))		//offsets
+				top: $.firefly.random(($(window).height()-50)),	//offsets
+				left: $.firefly.random(($(window).width()-50))		//offsets
 				}).show();
 }
 

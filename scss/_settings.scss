@@ -182,7 +182,7 @@ body {
 
 #proposal {
   height: 550px;
-  background-color: #EBF5FF;
+  background-color: #FFE9E9;
   opacity:.95;
 }
 
@@ -236,20 +236,34 @@ body {
 }
 
 #party {
-  height: 900px;
-  background-color: #ffffff;
+  height: 1650px;
+  background-color: #FFE9E9;
   opacity: .95;
 }
 
+.party-title{
+  font-size: 24px;
+  // font-family: 'EB Garamond', serif;
+}
+
+.party-name{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.party-deets{
+  font-size: 14px;
+}
+
 #photos{
-  background-color: #D9D9D9;
+  background-color: #ffffff;
   opacity:.90;
 }
 
 #registry {
   height: 400px;
   // color: #ffffff;
-  background-color: #EBF5FF;  
+  background-color: #FFE9E9;  
 }
 
 .indent-left{
