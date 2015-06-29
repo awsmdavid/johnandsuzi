@@ -99,9 +99,13 @@ body {
   top: 0px;
   z-index: -2;
   // opacity: .2;
-  min-height: 800px;
+  height: 800px;
   position: fixed;
   width: 100%;
+}
+
+.hide-for-small{
+  display: none;
 }
 
 @media (min-width: 600px) {
@@ -115,19 +119,41 @@ body {
     position: fixed;
     width: 100%;
   }
+  .hide-for-small{
+    display:block;
+  }
 }
 
 
 .nav-arrow {
   font-size: 50px;
-  color: #5e5f63;
+  // color: #5e5f63;
+  color: #fff;
   text-align: center;
   top: 700px;
   padding-top: 500px;
+
+  //blinking
+    -webkit-animation: bgblink 10s;  /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+}
+@-webkit-keyframes bgblink {
+    from {color: #fff;}
+    50% {color:#FFE9E9}
+    to {color: #fff;}
+}
+@keyframes bgblink {
+    from {color: #fff;}
+    50% {color:#FF94B8}
+    to {color: #fff;}
 }
 
-.arrow:hover{
-  color: #fff;
+// .nav-arrow:hover{
+//   color: #5e5f63;
+// }
+
+.flashing-arrow-background{
+  color: #5e5f63;
 }
 
 .parallax-container {
@@ -197,6 +223,11 @@ body {
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
+  padding-bottom: 15px;
+}
+
+#story-img{
+  margin-top: 50px;
 }
 
 #proposal {
@@ -205,6 +236,11 @@ body {
   min-height: 550px;
   background-color: #FFE9E9;
   opacity:.95;
+  padding-bottom: 15px;
+}
+
+#prop-vid{
+  margin-top: 100px;
 }
 
 #wedding {
@@ -213,6 +249,7 @@ body {
   min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
+  padding-bottom: 15px;
 }
 // .wedding-content{
 //   margin-left: 0px;
@@ -265,6 +302,7 @@ body {
   // height: 650px;
   background-color: #FFE9E9;
   opacity: .95;
+  padding-bottom: 15px;
 }
 
 .party-title{

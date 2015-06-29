@@ -14,6 +14,7 @@ $(document).ready(function(){
 
 	// Check if desktop
     if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+
 		
 		// doBounce(3, '10px', 300);
 		$('#arrow').hover(function(){
@@ -32,11 +33,35 @@ $(document).ready(function(){
 		// $('#arrow').show().animate({ top: 305 }, {duration: 1000, easing: 'easeOutBounce'});
 		// alert("yo");
 		// $('.nav-arrow').animate({ top: 305 }, {duration: 1000, easing: 'easeOutBounce'});
+		var navarrowdiv = $('#arrow');
 		var welcomediv = $('.welcome-content');
 		var storydiv = $('.story-content');
 		var proposaldiv = $('.proposal-content');
 		var weddingdiv = $('.wedding-content');
 		var weddingheaderdiv = $('.wedding-header');
+
+		$(window).scroll(function(){
+			if($(window).scrollTop()>300){
+				navarrowdiv.fadeOut("fast");
+			}
+			else {
+				// $( ".story-content" ).animate({marginLeft: "0px"}, 500);
+				navarrowdiv.fadeIn("fast");
+			}
+
+		});
+
+		$(window).scroll(function(){
+			if($(window).scrollTop()<=300){
+				navarrowdiv.fadeIn("fast");
+			}
+			else {
+				// $( ".story-content" ).animate({marginLeft: "0px"}, 500);
+				navarrowdiv.fadeOut("fast");
+			}
+
+		});
+
 		$(window).scroll(function(){
 			if($(window).scrollTop()>1400){
 				welcomediv.fadeIn("slow");

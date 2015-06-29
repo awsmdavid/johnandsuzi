@@ -40,13 +40,18 @@ body {
   background-position: center;
   top: 0px;
   z-index: -2;
-  min-height: 800px;
+  height: 800px;
   position: fixed;
   width: 100%;
 }
 
+/* line 107, ../scss/_settings.scss */
+.hide-for-small {
+  display: none;
+}
+
 @media (min-width: 600px) {
-  /* line 108, ../scss/_settings.scss */
+  /* line 112, ../scss/_settings.scss */
   .parallax-background {
     background: url("/assets/background.jpg") no-repeat center transparent;
     background-size: cover;
@@ -56,27 +61,58 @@ body {
     position: fixed;
     width: 100%;
   }
+
+  /* line 122, ../scss/_settings.scss */
+  .hide-for-small {
+    display: block;
+  }
 }
-/* line 121, ../scss/_settings.scss */
+/* line 128, ../scss/_settings.scss */
 .nav-arrow {
   font-size: 50px;
-  color: #5e5f63;
+  color: #fff;
   text-align: center;
   top: 700px;
   padding-top: 500px;
+  -webkit-animation: bgblink 10s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
 }
 
-/* line 129, ../scss/_settings.scss */
-.arrow:hover {
-  color: #fff;
+@-webkit-keyframes bgblink {
+  from {
+    color: #fff;
+  }
+  50% {
+    color: #FFE9E9;
+  }
+  to {
+    color: #fff;
+  }
+}
+@keyframes bgblink {
+  from {
+    color: #fff;
+  }
+  50% {
+    color: #FF94B8;
+  }
+  to {
+    color: #fff;
+  }
+}
+/* line 155, ../scss/_settings.scss */
+.flashing-arrow-background {
+  color: #5e5f63;
 }
 
-/* line 133, ../scss/_settings.scss */
+/* line 159, ../scss/_settings.scss */
 .parallax-container {
   height: 100%;
 }
 
-/* line 138, ../scss/_settings.scss */
+/* line 164, ../scss/_settings.scss */
 .parallax-content {
   top: 100%;
   max-width: 100%;
@@ -84,7 +120,7 @@ body {
   font-size: 20px;
 }
 
-/* line 146, ../scss/_settings.scss */
+/* line 172, ../scss/_settings.scss */
 #welcome {
   height: auto;
   min-height: 450px;
@@ -93,13 +129,13 @@ body {
   opacity: .85;
 }
 
-/* line 162, ../scss/_settings.scss */
+/* line 188, ../scss/_settings.scss */
 .welcome-content {
   margin-top: 30px;
   font-family: 'Ek Mukta', sans-serif;
 }
 
-/* line 169, ../scss/_settings.scss */
+/* line 195, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -108,7 +144,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 204, ../scss/_settings.scss */
 .section-subheader {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -117,54 +153,67 @@ body {
   margin-top: 10px;
 }
 
-/* line 187, ../scss/_settings.scss */
+/* line 213, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 193, ../scss/_settings.scss */
+/* line 219, ../scss/_settings.scss */
 #story {
   height: auto;
   min-height: 560px;
   background-color: #ffffff;
   opacity: .95;
   color: #000000;
+  padding-bottom: 15px;
 }
 
-/* line 202, ../scss/_settings.scss */
+/* line 229, ../scss/_settings.scss */
+#story-img {
+  margin-top: 50px;
+}
+
+/* line 233, ../scss/_settings.scss */
 #proposal {
   height: auto;
   min-height: 550px;
   background-color: #FFE9E9;
   opacity: .95;
+  padding-bottom: 15px;
 }
 
-/* line 210, ../scss/_settings.scss */
+/* line 242, ../scss/_settings.scss */
+#prop-vid {
+  margin-top: 100px;
+}
+
+/* line 246, ../scss/_settings.scss */
 #wedding {
   height: auto;
   min-height: 500px;
   background-color: #ffffff;
   opacity: .95;
+  padding-bottom: 15px;
 }
 
-/* line 221, ../scss/_settings.scss */
+/* line 258, ../scss/_settings.scss */
 .lower {
   text-transform: lowercase;
 }
 
-/* line 225, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 228, ../scss/_settings.scss */
+/* line 265, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 231, ../scss/_settings.scss */
+/* line 268, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -182,12 +231,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 249, ../scss/_settings.scss */
+/* line 286, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 253, ../scss/_settings.scss */
+/* line 290, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -196,67 +245,68 @@ body {
   float: left;
 }
 
-/* line 261, ../scss/_settings.scss */
+/* line 298, ../scss/_settings.scss */
 #party {
   height: auto;
   background-color: #FFE9E9;
   opacity: .95;
+  padding-bottom: 15px;
 }
 
-/* line 270, ../scss/_settings.scss */
+/* line 308, ../scss/_settings.scss */
 .party-title {
   font-size: 24px;
 }
 
-/* line 275, ../scss/_settings.scss */
+/* line 313, ../scss/_settings.scss */
 .party-name {
   font-size: 20px;
   font-weight: 800;
 }
 
-/* line 280, ../scss/_settings.scss */
+/* line 318, ../scss/_settings.scss */
 .party-deets {
   font-size: 14px;
 }
 
-/* line 284, ../scss/_settings.scss */
+/* line 322, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 288, ../scss/_settings.scss */
+/* line 326, ../scss/_settings.scss */
 .orbit-prev {
   display: none;
 }
 
-/* line 292, ../scss/_settings.scss */
+/* line 330, ../scss/_settings.scss */
 .orbit-next {
   display: none;
 }
 
-/* line 296, ../scss/_settings.scss */
+/* line 334, ../scss/_settings.scss */
 .orbit-timer {
   color: #000;
 }
 
-/* line 305, ../scss/_settings.scss */
+/* line 343, ../scss/_settings.scss */
 #registry {
   height: auto;
   min-height: 400px;
   background-color: #ffffff;
 }
 
-/* line 314, ../scss/_settings.scss */
+/* line 352, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 318, ../scss/_settings.scss */
+/* line 356, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 322, ../scss/_settings.scss */
+/* line 360, ../scss/_settings.scss */
 #rsvp {
   height: auto;
   min-height: 200px;
@@ -264,14 +314,14 @@ body {
   background-color: #000000;
 }
 
-/* line 329, ../scss/_settings.scss */
+/* line 367, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 335, ../scss/_settings.scss */
+/* line 373, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -281,7 +331,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 344, ../scss/_settings.scss */
+/* line 382, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }

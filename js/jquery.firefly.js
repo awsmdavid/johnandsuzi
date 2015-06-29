@@ -42,8 +42,8 @@
 
 $.firefly.fly = function(sp) {
 	$(sp).animate({
-		top: $.firefly.random(($(window).height()-150)),	//offsets
-		left: $.firefly.random(($(window).width()-150))
+		top: $.firefly.random(($(window).height()-50)),	//offsets
+		left: $.firefly.random(($(window).width()-50))
 	}, (($.firefly.random(10) + 5) * 1100),function(){ $.firefly.fly(sp) } );
 };
 
