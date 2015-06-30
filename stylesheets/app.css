@@ -40,18 +40,19 @@ body {
   background-position: center;
   top: 0px;
   z-index: -2;
-  height: 800px;
+  height: auto;
+  min-height: 800px;
   position: fixed;
   width: 100%;
 }
 
-/* line 107, ../scss/_settings.scss */
+/* line 108, ../scss/_settings.scss */
 .hide-for-small {
   display: none;
 }
 
 @media (min-width: 600px) {
-  /* line 112, ../scss/_settings.scss */
+  /* line 113, ../scss/_settings.scss */
   .parallax-background {
     background: url("/assets/background.jpg") no-repeat center transparent;
     background-size: cover;
@@ -62,12 +63,12 @@ body {
     width: 100%;
   }
 
-  /* line 122, ../scss/_settings.scss */
+  /* line 123, ../scss/_settings.scss */
   .hide-for-small {
     display: block;
   }
 }
-/* line 128, ../scss/_settings.scss */
+/* line 129, ../scss/_settings.scss */
 .nav-arrow {
   font-size: 50px;
   color: #fff;
@@ -103,12 +104,12 @@ body {
     color: #fff;
   }
 }
-/* line 152, ../scss/_settings.scss */
+/* line 153, ../scss/_settings.scss */
 .parallax-container {
   height: 100%;
 }
 
-/* line 157, ../scss/_settings.scss */
+/* line 158, ../scss/_settings.scss */
 .parallax-content {
   top: 100%;
   max-width: 100%;
@@ -116,7 +117,7 @@ body {
   font-size: 20px;
 }
 
-/* line 165, ../scss/_settings.scss */
+/* line 166, ../scss/_settings.scss */
 #welcome {
   height: auto;
   min-height: 450px;
@@ -125,13 +126,13 @@ body {
   opacity: .85;
 }
 
-/* line 181, ../scss/_settings.scss */
+/* line 182, ../scss/_settings.scss */
 .welcome-content {
   margin-top: 30px;
   font-family: 'Ek Mukta', sans-serif;
 }
 
-/* line 188, ../scss/_settings.scss */
+/* line 189, ../scss/_settings.scss */
 .section-header {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -140,7 +141,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 197, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .section-subheader {
   font-family: 'EB Garamond', serif;
   text-transform: uppercase;
@@ -149,14 +150,14 @@ body {
   margin-top: 10px;
 }
 
-/* line 206, ../scss/_settings.scss */
+/* line 207, ../scss/_settings.scss */
 .section-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 212, ../scss/_settings.scss */
+/* line 213, ../scss/_settings.scss */
 #story {
   height: auto;
   min-height: 560px;
@@ -166,12 +167,12 @@ body {
   padding-bottom: 15px;
 }
 
-/* line 222, ../scss/_settings.scss */
+/* line 223, ../scss/_settings.scss */
 #story-img {
   margin-top: 50px;
 }
 
-/* line 226, ../scss/_settings.scss */
+/* line 227, ../scss/_settings.scss */
 #proposal {
   height: auto;
   min-height: 550px;
@@ -180,12 +181,12 @@ body {
   padding-bottom: 15px;
 }
 
-/* line 235, ../scss/_settings.scss */
+/* line 236, ../scss/_settings.scss */
 #prop-vid {
   margin-top: 100px;
 }
 
-/* line 239, ../scss/_settings.scss */
+/* line 240, ../scss/_settings.scss */
 #wedding {
   height: auto;
   min-height: 500px;
@@ -194,22 +195,22 @@ body {
   padding-bottom: 15px;
 }
 
-/* line 251, ../scss/_settings.scss */
+/* line 252, ../scss/_settings.scss */
 .lower {
   text-transform: lowercase;
 }
 
-/* line 255, ../scss/_settings.scss */
+/* line 256, ../scss/_settings.scss */
 .pink-banner {
   margin: 15px 0 15px -15px;
 }
 
-/* line 258, ../scss/_settings.scss */
+/* line 259, ../scss/_settings.scss */
 .banner-link-pink:before {
   background: url(/assets/ribbon-before.png) no-repeat;
 }
 
-/* line 261, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .banner-link-pink span {
   height: 31px;
   padding: 5px 2px 0;
@@ -227,12 +228,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 279, ../scss/_settings.scss */
+/* line 280, ../scss/_settings.scss */
 .banner-link-pink:after {
   background: url(/assets/ribbon-after.png) no-repeat;
 }
 
-/* line 283, ../scss/_settings.scss */
+/* line 284, ../scss/_settings.scss */
 .banner-link-pink:before, .banner-link-pink:after {
   content: '';
   width: 32px;
@@ -241,7 +242,7 @@ body {
   float: left;
 }
 
-/* line 291, ../scss/_settings.scss */
+/* line 292, ../scss/_settings.scss */
 #party {
   height: auto;
   background-color: #FFE9E9;
@@ -249,60 +250,60 @@ body {
   padding-bottom: 15px;
 }
 
-/* line 301, ../scss/_settings.scss */
+/* line 302, ../scss/_settings.scss */
 .party-title {
   font-size: 24px;
 }
 
-/* line 306, ../scss/_settings.scss */
+/* line 307, ../scss/_settings.scss */
 .party-name {
   font-size: 20px;
   font-weight: 800;
 }
 
-/* line 311, ../scss/_settings.scss */
+/* line 312, ../scss/_settings.scss */
 .party-deets {
   font-size: 14px;
 }
 
-/* line 315, ../scss/_settings.scss */
+/* line 316, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 319, ../scss/_settings.scss */
+/* line 320, ../scss/_settings.scss */
 .orbit-prev {
   display: none;
 }
 
-/* line 323, ../scss/_settings.scss */
+/* line 324, ../scss/_settings.scss */
 .orbit-next {
   display: none;
 }
 
-/* line 327, ../scss/_settings.scss */
+/* line 328, ../scss/_settings.scss */
 .orbit-timer {
   color: #000;
 }
 
-/* line 336, ../scss/_settings.scss */
+/* line 337, ../scss/_settings.scss */
 #registry {
   height: auto;
   min-height: 400px;
   background-color: #ffffff;
 }
 
-/* line 345, ../scss/_settings.scss */
+/* line 346, ../scss/_settings.scss */
 .indent-left {
   padding-left: 30px;
 }
 
-/* line 349, ../scss/_settings.scss */
+/* line 350, ../scss/_settings.scss */
 #paypal-logo:hover {
   opacity: .7;
 }
 
-/* line 353, ../scss/_settings.scss */
+/* line 354, ../scss/_settings.scss */
 #rsvp {
   height: auto;
   min-height: 200px;
@@ -310,21 +311,21 @@ body {
   background-color: #000000;
 }
 
-/* line 360, ../scss/_settings.scss */
+/* line 361, ../scss/_settings.scss */
 #countdown {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-/* line 366, ../scss/_settings.scss */
+/* line 367, ../scss/_settings.scss */
 .hashtag {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
-/* line 372, ../scss/_settings.scss */
+/* line 373, ../scss/_settings.scss */
 #foot {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -334,7 +335,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 381, ../scss/_settings.scss */
+/* line 382, ../scss/_settings.scss */
 .foo {
   color: #ffffff;
 }

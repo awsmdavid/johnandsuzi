@@ -99,7 +99,8 @@ body {
   top: 0px;
   z-index: -2;
   // opacity: .2;
-  height: 800px;
+  height: auto;
+  min-height: 800px;
   position: fixed;
   width: 100%;
 }

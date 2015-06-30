@@ -63,7 +63,7 @@ $(document).ready(function(){
 		});
 
 		$(window).scroll(function(){
-			if($(window).scrollTop()>1400){
+			if($(window).scrollTop()>1200){
 				welcomediv.fadeIn("slow");
 			}
 			else {
